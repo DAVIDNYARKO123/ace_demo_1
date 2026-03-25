@@ -107,3 +107,7 @@ Open and run any of the demo notebooks:
 - Detects objects in sample images
 - Returns CSV with coordinates and confidence scores
 - Creates annotated images with bounding boxes
+
+## License
+
+MIT License - Feel free to use this project for learning and experimentation.
