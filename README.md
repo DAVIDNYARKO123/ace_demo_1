@@ -47,3 +47,10 @@ ace_demo_1/
 ├── detections.csv              # Object detection results
 └── annotated_image.jpg         # Annotated image with bounding boxes
 ```
+
+## Setup
+
+### Prerequisites
+- Python 3.9 or higher
+- Jupyter Notebook or JupyterLab
+- API keys for Claude, OpenAI, and Gemini (depending on which demos you want to run)
