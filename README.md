@@ -54,3 +54,17 @@ ace_demo_1/
 - Python 3.9 or higher
 - Jupyter Notebook or JupyterLab
 - API keys for Claude, OpenAI, and Gemini (depending on which demos you want to run)
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/DAVIDNYARKO123/ace_demo_1.git
+cd ace_demo_1
+```
+
+2. Create and activate a virtual environment:
+```bash
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+```
