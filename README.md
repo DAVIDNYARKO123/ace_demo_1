@@ -68,3 +68,13 @@ cd ace_demo_1
 python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 ```
+
+### API Configuration
+
+Create a `.env` file in the `utils/` directory with your API keys:
+
+```env
+CLAUDE_API_KEY="your_claude_api_key_here"
+OPENAI_API_KEY="your_openai_api_key_here"
+GEMINI_API_KEY="your_gemini_api_key_here"
+```
