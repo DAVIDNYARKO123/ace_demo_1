@@ -90,3 +90,20 @@ Open and run any of the demo notebooks:
 - `main_claude_demo.ipynb` - Generate tongue-twisters with Claude
 - `main_openai_demo.ipynb` - Create images from text with OpenAI
 - `main_gemini_demo.ipynb` - Detect objects in images with Gemini
+
+### Demo Examples
+
+**Claude Demo:**
+- Generates creative tongue-twisters on demand
+- Compares zero-shot vs one-shot prompting results
+- Example output: "Slippery snakes slither slowly through slimy, soggy swamps"
+
+**OpenAI Demo:**
+- Creates images from descriptive prompts
+- Example: "A realistic Dalmatian pup at a birthday party"
+- Saves high-quality images to the output directory
+
+**Gemini Demo:**
+- Detects objects in sample images
+- Returns CSV with coordinates and confidence scores
+- Creates annotated images with bounding boxes
