@@ -39,7 +39,7 @@ ace_demo_1/
 ├── main_openai_demo.ipynb      # OpenAI image generation demo
 ├── main_gemini_demo.ipynb      # Gemini object detection demo
 ├── utils/
-│   └── .env.example                    # API keys template
+│   └── .env.example            # API keys template
 ├── images/
 │   └── coco128_sample/         # Sample test images
 ├── output/
