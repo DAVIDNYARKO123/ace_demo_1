@@ -83,3 +83,10 @@ GEMINI_API_KEY="your_gemini_api_key_here"
 - **Claude**: Sign up at [Anthropic Console](https://console.anthropic.com/)
 - **OpenAI**: Sign up at [OpenAI Platform](https://platform.openai.com/)
 - **Gemini**: Sign up at [Google AI Studio](https://aistudio.google.com/)
+
+## Usage
+
+Open and run any of the demo notebooks:
+- `main_claude_demo.ipynb` - Generate tongue-twisters with Claude
+- `main_openai_demo.ipynb` - Create images from text with OpenAI
+- `main_gemini_demo.ipynb` - Detect objects in images with Gemini
