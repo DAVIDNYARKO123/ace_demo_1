@@ -51,6 +51,7 @@ ace_demo_1/
 ## Setup
 
 ### Prerequisites
+
 - Python 3.9 or higher
 - Jupyter Notebook or JupyterLab
 - API keys for Claude, OpenAI, and Gemini (depending on which demos you want to run)
@@ -58,15 +59,17 @@ ace_demo_1/
 ### Installation
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/DAVIDNYARKO123/ace_demo_1.git
 cd ace_demo_1
 ```
 
 2. Create and activate a virtual environment:
+
 ```bash
 python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+source .venv/bin/activate
 ```
 
 ### API Configuration
@@ -80,6 +83,7 @@ GEMINI_API_KEY="your_gemini_api_key_here"
 ```
 
 **Getting API Keys:**
+
 - **Claude**: Sign up at [Anthropic Console](https://console.anthropic.com/)
 - **OpenAI**: Sign up at [OpenAI Platform](https://platform.openai.com/)
 - **Gemini**: Sign up at [Google AI Studio](https://aistudio.google.com/)
@@ -87,6 +91,7 @@ GEMINI_API_KEY="your_gemini_api_key_here"
 ## Usage
 
 Open and run any of the demo notebooks:
+
 - `main_claude_demo.ipynb` - Generate tongue-twisters with Claude
 - `main_openai_demo.ipynb` - Create images from text with OpenAI
 - `main_gemini_demo.ipynb` - Detect objects in images with Gemini
@@ -94,16 +99,19 @@ Open and run any of the demo notebooks:
 ### Demo Examples
 
 **Claude Demo:**
+
 - Generates creative tongue-twisters on demand
 - Compares zero-shot vs one-shot prompting results
 - Example output: "Slippery snakes slither slowly through slimy, soggy swamps"
 
 **OpenAI Demo:**
+
 - Creates images from descriptive prompts
 - Example: "A realistic Dalmatian pup at a birthday party"
 - Saves high-quality images to the output directory
 
 **Gemini Demo:**
+
 - Detects objects in sample images
 - Returns CSV with coordinates and confidence scores
 - Creates annotated images with bounding boxes
